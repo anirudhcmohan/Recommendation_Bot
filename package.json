@@ -1,0 +1,22 @@
+{
+  "name": "recommendation_bot",
+  "version": "1.0.0",
+  "description": "Recommendation bot for Facebook Messenger",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudhcmohan/Recommendation_Bot.git"
+  },
+  "author": "animohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirudhcmohan/Recommendation_Bot/issues"
+  },
+  "homepage": "https://github.com/anirudhcmohan/Recommendation_Bot#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
