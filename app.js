@@ -1,5 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var request = require('request');
 
 var app = express();
 app.use(bodyParser.json());
@@ -47,6 +48,7 @@ app.post('/webhook/', function (req, res) {
     sender = event.sender.id;
     if (event.message && event.message.text) {
       text = event.message.text;
+      console.log(text);
       sendTextMessage(sender, "Echoing text"+ text);
     }
   }
