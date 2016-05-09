@@ -1,5 +1,8 @@
 var express = require('express');
+var bodyParser = require('body-parser');
+
 var app = express();
+var jsonParser = bodyParser.json();
 
 app.set('port', (process.env.PORT || 5000));
 
